@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer bebé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <style>
+        header {
+            background-image: linear-gradient(to bottom, #9fbf9a, #cbe3c7); /* Gradiente lineal de color de oscuro a claro */
+            color: #fff;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            
+        }
+        .logo img{
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .logo h1{
+            margin: 0;
+            font-family: 'Preahvihear', sans-serif;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .navigation {
+            display: flex;
+            align-items: center;
+        }
+
+        .navigation ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+           /* margin-left: 20px; /* Ajusta las subsecciones a la derecha*/
+        }
+
+        .navigation li {
+            display: inline-block;
+            margin-right: 30px;
+            position: relative;
+        }
+
+        .navigation a{
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Preahvihear', sans-serif;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .navigation ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #a4c39f;
+            list-style: none;
+        }
+
+        .navigation li:hover ul {
+            display: block;
+        }
+
+        .navigation ul ul li {
+            padding: 10px;
+
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"></a> <!-----Esto es para poner el url de la pagina, para que tocando el logo nos lleve al inicio-->
+            <img src="images/nino (1).png" alt="Logo" height="50px">
+            <h1>Mi primer bebé</h1>
+             </a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">Embarazo</a>
+                    <ul>
+                        <li><a href="#">Subsección 1</a></li>
+                        <li><a href="#">Subsección 2</a></li>
+                        <li><a href="#">Subsección 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Bebés</a>
+                    <ul>
+                        <li><a href="#">Subsección 1</a></li>
+                        <li><a href="#">Subsección 2</a></li>
+                        <li><a href="#">Subsección 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Familia</a>
+                    <ul>
+                        <li><a href="#">Subsección 1</a></li>
+                        <li><a href="#">Subsección 2</a></li>
+                        <li><a href="#">Subsección 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+        </div>
+    </header>
+<!--------Aca seguiria el carrusel-->
+</body>
+</html>
