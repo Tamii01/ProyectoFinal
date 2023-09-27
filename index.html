@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer bebé</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&family=Raleway:wght@200&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="quienesSomos.html">
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"></a> <!-----Esto es para poner el url de la pagina, para que tocando el logo nos lleve al inicio-->
+            <a href="index.html"></a>
+            <!-----Esto es para poner el url de la pagina, para que tocando el logo nos lleve al inicio-->
             <img src="images/logo (2).png" alt="Logo" height="50px">
             <h1>Mi primer bebé</h1>
-             </a>
+            </a>
         </div>
         <div class="navigation">
             <ul>
@@ -49,15 +56,152 @@
             <input type="text" placeholder="Buscar...">
         </div>
     </header>
-<!--------Aca seguiria el carrusel-------->
-
-<!-----------Seccion Noticias----------->
+    <!-----------Seccion Noticias----------->
     <section class="noticias">
-        <img src="./images/padres-inicio.jpeg" alt="">
+        <img src="./images/piecitos.jpeg" alt="">
+        <h3 class="noticias-info-title">Compartiendo experiencias, <br>creciendo como padres</h3>
         <div class="noticias-info">
-            <center><input type="submit" class="button1" value="Ver Noticias"></center>
+            <a href="quienesSomos.html"><input type="submit" class="button1" value="¿Quienes somos?"></a>
         </div>
     </section>
 
+    <!-- ----------Tarjetas de noticias---------------->
+    <section class="tarjeta">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/familiaplaya.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Familia</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/madrehijo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lactancia</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/hijamadre.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Educación</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- carrusel-->
+    <div id="slider" style="margin-top: 50px;">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="images/familiaplaya.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Noticias</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/madrehijo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Noticias</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hijamadre.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div id="cajaNoticia">
+                                <p>Noticias</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="flexContainer">
+                <div class="logo">
+                    <h2>Mi Primer Bebé</h2>
+                    <img src="images/logo (2).png" alt="" style="width: 80px; height: 80px; ">
+                </div>
+
+                <div class="frase">
+                    <h3>"Compartiendo experiencias, creciendo como madres y padres."</h3>
+                </div>
+
+                <div class="contactos">
+                    <h2><strong>Contacto</strong></h2>
+                    <nav>
+                        <img src="images/instagram.png" alt="" style="width: 25px; height: 25px; ">
+                        <a href="https://www.instagram.com/miprimerbebeinfo/">Instagram</a><br>
+                        <img src="images/gmail.png" alt="" style="width: 25px; height: 25px; ">
+                        <a href="mailto:miprimerbebe.info@gmail.com">Enviar correo</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
