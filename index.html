@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="quienesSomos.html">
 </head>
 
 <body>
@@ -57,13 +58,60 @@
     </header>
     <!-----------Seccion Noticias----------->
     <section class="noticias">
-        <img src="./images/padres-inicio.jpeg" alt="">
+        <img src="./images/piecitos.jpeg" alt="">
+        <h3 class="noticias-info-title">Compartiendo experiencias, <br>creciendo como padres</h3>
         <div class="noticias-info">
-            <center><input type="submit" class="button1" value="Ver Noticias"></center>
+            <a href="quienesSomos.html"><input type="submit" class="button1" value="¿Quienes somos?"></a>
         </div>
     </section>
 
-    <!-- ----------Carrusel---------------->
+    <!-- ----------Tarjetas de noticias---------------->
+    <section class="tarjeta">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/familiaplaya.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Familia</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/madrehijo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lactancia</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/hijamadre.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Educación</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- carrusel-->
     <div id="slider" style="margin-top: 50px;">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
@@ -123,54 +171,28 @@
             </button>
         </div>
 
-        <div id="caja1">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/familiaplaya.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Familia</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                        </div>
-                    </div>
+        <!-- footer -->
+        <footer>
+            <div class="flexContainer">
+                <div class="logo">
+                    <h2>Mi Primer Bebé</h2>
+                    <img src="images/logo (2).png" alt="" style="width: 80px; height: 80px; ">
+                </div>
+
+                <div class="frase">
+                    <h3>"Compartiendo experiencias, creciendo como madres y padres."</h3>
+                </div>
+
+                <div class="contactos">
+                    <h2><strong>Contacto</strong></h2>
+                    <nav>
+                        <img src="images/instagram.png" alt="" style="width: 25px; height: 25px; ">
+                        <a href="https://www.instagram.com/miprimerbebeinfo/">Instagram</a><br>
+                        <img src="images/gmail.png" alt="" style="width: 25px; height: 25px; ">
+                        <a href="mailto:miprimerbebe.info@gmail.com">Enviar correo</a>
                 </div>
             </div>
-
-
-            <div id="caja2">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/madrehijo.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Lactancia</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="caja3">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/hijamadre.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Educación</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -178,6 +200,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"></script>
+
 
 </body>
 
