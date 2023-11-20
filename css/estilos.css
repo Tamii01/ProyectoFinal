@@ -229,6 +229,59 @@ p{
     text-shadow: 2px 1px 2px black;
 }
 
+
+/*---------------NOTICIAS--------------*/
+.knowledge {
+    /*Por si agregamos algun fondo, configurar para que se vea completo en la seccion*/
+    /*background-image: url(/images/familia/background-imagenes.jpg);*/
+    background: #fef6e4;
+    overflow: hidden;
+    font-size: 1.3em;
+    font-weight: 600;
+  
+  }
+  .subtittle{
+    text-align: center;
+    margin: 10px;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .knowledge_container {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    gap: 1em;
+    align-items: center;
+  }
+  
+  .knowledge_picture {
+    max-width:500px;
+  }
+  
+  .knowledge_paragraph {
+    background-color: #fef6e4;
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+
+  .paragraph{
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+ }
+  
+  .knowledge_img {
+    width: 100%;
+    display: block;
+  }
+.iconos{
+  width: 40px;
+  
+}
+
 /* ---------------FOOTER------------------------- */
 *{
     margin: 0;
