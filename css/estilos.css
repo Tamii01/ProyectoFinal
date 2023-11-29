@@ -281,7 +281,47 @@ p{
   width: 40px;
   
 }
+/*--------CARRUSEL---*/
 
+#carrusel-contenedor{
+
+    .carousel-container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 20px; 
+    
+    }
+    
+    .carousel-container p{
+            position: relative;
+            bottom: 0;
+            padding: 10px;
+            background-color: rgba(233, 217, 217, 0.6);
+            color: #fff;
+    }
+    #slider .carousel-item img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    
+    #slider {
+        /*max-width: 100%;*/
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .carousel-inner {
+        max-width: 100%;
+    }
+    .carousel-item img {
+        height: 800px;
+        width: 800px;
+    }
+    .carousel-item img {
+        width: 100%; 
+        height: auto; 
+    }
+    }
 /* ---------------FOOTER------------------------- */
 *{
     margin: 0;
