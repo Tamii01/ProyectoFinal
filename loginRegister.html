@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font montserrat -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Coiny&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300&family=Roboto:ital,wght@0,400;0,700;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Iconos Google, FB, Linkedin -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/formulario.css">
+
+    <title>FORMULARIO DE REGISTRO E INICIO DE SESIÓN</title>
+</head>
+
+<style>
+    body {
+        background: url(images/backgroundBaby.jpg);
+        background-size: cover;
+    }
+</style>
+
+<!-------------------------------------- INICIO DE SESIÓN ----------------------------------------------->
+
+<div class="container-form login hide">
+    <div class="information">
+        <div class="info-childs">
+            <h2>Bienvenido</h2>
+            <p>Para unirte a nuestra comunidad por favor Inicia Sesión con tus datos</p>
+            <input type="button" value="Registrarse" id="sign-up">
+        </div>
+    </div>
+    <div class="form-information">
+        <div class="form-information-childs">
+            <h2>Inicia Sesión</h2>
+            <div class="icons">
+                <i class='bx bxl-google'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-linkedin'></i>
+            </div>
+            <p>o Iniciar Sesión con una cuenta</p>
+            <form class="form">
+                <label>
+                    <i class='bx bx-envelope'></i>
+                    <input type="email" placeholder="Correo Electrónico">
+                </label>
+                <label>
+                    <i class='bx bx-lock-alt'></i>
+                    <input type="password" placeholder="Contraseña">
+                </label>
+                <a href="index.html">
+                    <h1>Iniciar Sesion</h1>
+                </a>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------- REGISTRO ----------------------------------------------->
+
+
+<body>
+    <div class="container-form register">
+        <div class="information">
+            <div class="info-childs">
+                <h2>¡Bienvenido nuevamente!</h2>
+                <p>Si aun no tienes una cuenta, por favor registrate aquí</p>
+                <input type="button" value="Iniciar Sesión" id="sign-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Crear una cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>o usa tu email para registrarte</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="Nombre Completo">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" placeholder="Correo Electrónico">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <a href="index.html">
+                        <h1>Registrarse</h1>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
