@@ -12,7 +12,7 @@ header {
 }
 
 .main-content{
-    margin-top: 4%;
+    margin-top: 3.8%;
 }
 
 .registro{
@@ -128,19 +128,6 @@ header {
     font-family: 'Varela Round', sans-serif;
     font-weight: 600;
 }
-
-/*.noticias{
-    width:100%;
-    margin: auto;
-    position: relative;
-    z-index: 2;
-}
-
-.noticias img{
-    margin-left: 50%;
-    width: 40%;
-    height: 65vh;
-}*/
 
 /* ---------------------------INTRODUCCION BOTONES - INDEX.HTML--------------------- */
 
@@ -563,6 +550,7 @@ h3{
 	background: #2fb4cc;
 	color: #fff;
 }
+
 @media only screen and (min-width:320px) and (max-width:768px){
 	.container-card{
 		flex-wrap: wrap;
