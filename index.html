@@ -5,11 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer bebé</title>
-    <!--Preahvihear-->
-    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&family=Raleway:wght@200&display=swap"
-        rel="stylesheet">-->
+
     <!--Varela Round-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +15,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="quienesSomos.html">
+    <link rel="stylesheet" href="./css/foro.css">
+
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
@@ -62,214 +64,335 @@
     </header>
 
     <!-----------Seccion Introduccion----------->
-    <div class="introduccion">
-        <div class="columna1">
-            <h3 class="noticias-info-title">Compartiendo experiencias, <br>creciendo como madres y padres</h3>
-            <div class="noticias-info">
-                <a href="quienesSomos.html"><input type="submit" class="button1" value="¿Quienes somos?"></a>
-                <a href="#preguntasFrecuentes"><input type="submit" class="button1" value="Preguntas Frecuentes"></a>
+    <div class="main-content">
+        <div class="introduccion">
+            <div class="columna1">
+                <h3 class="noticias-info-title">Compartiendo experiencias, <br>creciendo como madres y padres</h3>
+                <div class="noticias-info">
+                    <a href="quienesSomos.html"><input type="submit" class="button1" value="¿Quienes somos?"></a>
+                    <a href="#preguntasFrecuentes"><input type="submit" class="button1"
+                            value="Preguntas Frecuentes"></a>
+                </div>
+            </div>
+            <div class="columna2">
+                <img src="./images/baby-modified.png" alt="">
             </div>
         </div>
-        <div class="columna2">
-            <img src="./images/baby-modified.png" alt="">
-        </div>
+        <!-- ----------Seccion Tarjetas (MICA)---------------->
+        <section class="tarjetas">
+            <div class="title-cards">
+                <h2>Creciendo Juntos: Síguenos en Instagram</h2>
+            </div>
+            <div class="container-card">
+                <div class="card">
+                    <figure>
+                        <img src="images/tarjetas/embarazo.webp">
+                    </figure>
+                    <div class="contenido-card">
+                        <h3>Embarazo</h3>
+                        <p>La incertidumbre en el proceso de embarazo es muy normal y pueden surgir muchas dudas
+                            recurrentes!🧐</p>
+                        <a href="https://www.instagram.com/p/C0UefNAgOLE/">Leer Más</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="images/tarjetas/bebes.webp">
+                    </figure>
+                    <div class="contenido-card">
+                        <h3>Bebes</h3>
+                        <p>Conocer la importancia de los primeros años de vida de nuestro bebé nos permite darle una
+                            mejor
+                            calidad de vida!✨</p>
+                        <a href="https://www.instagram.com/p/C0UdxavglHo/">Leer Más</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="images/tarjetas/familia.webp">
+                    </figure>
+                    <div class="contenido-card">
+                        <h3>Familia</h3>
+                        <p>La presencia y acompañamiento de la familia en el proceso de embarazo y también luego de dar
+                            a
+                            luz es fundamental!👨‍👩‍👧‍👦</p>
+                        <a href="https://www.instagram.com/p/C0UfEZtgBzl/">Leer Más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preguntas Frecuentes -->
+        <section class="knowledge" id="preguntasFrecuentes">
+            <div class="contenedor-acordeon">
+                <h2>Preguntas frecuentes</h2>
+
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+                    <label for="btn-acordeon1">
+                        ¿Cuándo puedo sentir los primeros movimientos del bebé durante el embarazo?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Los primeros movimientos, conocidos como "pataditas", generalmente se experimentan entre las
+                            semanas 18 y 25 del embarazo. Sin embargo, las madres primerizas a veces pueden sentirlos un
+                            poco más tarde. Este momento mágico varía para cada mujer y embarazo, ¡disfruta de cada
+                            pequeño
+                            movimiento que conecta a mamá y bebé!</p>
+                    </div>
+                </div>
+
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+                    <label for="btn-acordeon2">
+                        ¿Cuánto tiempo se tarda el parto normalmente?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>La duración del parto varía, pero para las primerizas, suele tomar entre 8 y 12 horas. Las
+                            mujeres que han tenido hijos anteriormente pueden experimentar partos más cortos. Es
+                            importante
+                            recordar que cada parto es único, y el apoyo y la orientación del equipo de atención médica
+                            son
+                            fundamentales durante este emocionante proceso.</p>
+                    </div>
+                </div>
+
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+                    <label for="btn-acordeon3">
+                        ¿Cómo sé si mi bebé está recibiendo suficiente leche materna?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Una señal clave es la cantidad de pañales mojados y deposiciones diarias. Un bebé bien
+                            alimentado
+                            generalmente se alimenta al menos 8 veces al día y moja al menos 6 pañales. Además, el bebé
+                            muestra un aumento constante de peso en las visitas al pediatra. La lactancia exitosa a
+                            menudo
+                            implica paciencia y apoyo, ¡no dudes en buscar asesoramiento de profesionales de la
+                            lactancia!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+                    <label for="btn-acordeon4">
+                        ¿Cuándo debo empezar a introducir alimentos sólidos?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>La introducción de alimentos sólidos suele comenzar alrededor de los 6 meses, cuando el bebé
+                            muestra signos de estar listo, como sentarse con apoyo y demostrar interés en los alimentos.
+                            Comienza con alimentos simples y de fácil digestión, como purés de frutas y verduras, y
+                            consulta
+                            con el pediatra para una guía personalizada.</p>
+                    </div>
+                </div>
+
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon5" class="btn-acordeon">
+                    <label for="btn-acordeon5">
+                        ¿Cómo establezco una rutina de sueño para mi bebé?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Fomentar una rutina de sueño efectiva implica crear hábitos predecibles antes de dormir. Esto
+                            puede incluir un baño relajante, lectura de cuentos y música tranquila. Coloca al bebé en la
+                            cuna cuando esté somnoliento pero aún despierto para fomentar la autoconciliación. La
+                            consistencia y la paciencia son esenciales mientras estableces una rutina que funcione para
+                            tu
+                            bebé y para ti.</p>
+                    </div>
+                </div>
+
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon6" class="btn-acordeon">
+                    <label for="btn-acordeon6">
+                        ¿Cómo puedo estimular el desarrollo cognitivo del bebé durante su primer año?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>El desarrollo cognitivo se fomenta a través del juego interactivo, el contacto visual y
+                            hablarle
+                            al bebé. Proporciona juguetes sensoriales y texturas para explorar. La lectura de cuentos y
+                            cantar también son excelentes maneras de estimular el desarrollo del lenguaje. Observa las
+                            señales de interés del bebé y adapta las actividades según su ritmo de desarrollo único.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FORO  -->
+        <section class="contenedor-comentarios">
+            <div class="area-comentar">
+                <div class="avatar">
+                    <img src="images/foro/mujer-avatar.png" alt="img">
+                </div>
+                <form action="#" method="post" class="inputs-comentarios">
+                    <textarea name="" class="area-comentario"></textarea>
+                    <div class="botones-comentar">
+                        <div class="boton-subir-archivo">
+                            <label class="boton-file" for="adjuntar">
+                                <i class="far fa-image"></i>
+                                Adjuntar archivo
+                            </label>
+                            <input type="file" name="" value="" placeholder="" id="adjuntar">
+                        </div>
+                        <button class="boton-enviar" type="sutmit">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="publicacion-realizada">
+                <div class="usuario-publico">
+                    <div class="avatar">
+                        <img src="images/foro/mujer-avatar.png" alt="img">
+                    </div>
+                    <div class="contenido-publicacion">
+                        <h4>Carolina de la valle</h4>
+                        <ul>
+                            <li>Hace 3 min</li>
+                        </ul>
+                    </div>
+                    <div class="menu-comentario">
+                        <i class="fas fa-pen"></i>
+                        <ul class="menu">
+                            <li><a href="">Editar</a></li>
+                            <li><a href="">Eliminar</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores aliquam possimus, doloremque
+                    repellat assumenda ipsam magni ducimus, dolorem explicabo</p>
+                <div class="archivo-publicado">
+                    <img src="http://localhost/multimedia/relleno/img-s5.png" alt="img">
+                </div>
+                <div class="botones-comentario">
+                    <button type="" class="boton-puntuar">
+                        <i class="fas fa-thumbs-up"></i>
+                        45
+                    </button>
+                    <button type="" class="boton-responder">
+                        Comentar
+                    </button>
+                </div>
+            </div>
+            <div class="comentarios-usuarios">
+                <!-- comentario principal -->
+                <div class="comentario-principal-usuario">
+                    <div class="avatar">
+                        <img src="images/foro/mujer3-avatar.png" alt="img">
+                    </div>
+                    <div class="comentario">
+                        <div class="usuario-comentario">
+                            <div class="texto">
+                                <a href="#" title="" class="nombre-usuario">Camila valle</a> Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Nulla tenetur necessitatibus, error debitis provident
+                                obcaecati blanditiis incidunt amet suscipit libero praesentium ducimus omnis harum
+                                commodi
+                                nobis modi perspiciatis? Quia, facilis.
+                                <div class="menu-comentario">
+                                    <i class="fas fa-pen"></i>
+                                    <ul class="menu">
+                                        <li><a href="">Editar</a></li>
+                                        <li><a href="">Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="botones-comentario">
+                                <button type="" class="boton-puntuar">
+                                    <i class="fas fa-thumbs-up"></i>
+                                    5
+                                </button>
+                                <button type="" class="boton-responder">
+                                    responder
+                                </button>
+                                <span class="tiempo-comentario">
+                                    hece 3 min
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- contenedor sub comentarios -->
+                        <div class="contenedor-sub-comentarios">
+                            <!-- sub-comentario uno -->
+                            <div class="comentario-principal-usuario">
+                                <div class="avatar">
+                                    <img src="images/foro/hombre-avatar.png" alt="img">
+                                </div>
+                                <div class="comentario">
+                                    <div class="usuario-comentario">
+                                        <div class="texto">
+                                            <a href="#" title="" class="nombre-usuario">Estevan Hernandez</a> Lorem
+                                            ipsum
+                                            dolor sit amet adipisicing elit, sed do eiusmod
+                                            <div class="menu-comentario">
+                                                <i class="fas fa-pen"></i>
+                                                <ul class="menu">
+                                                    <li><a href="">Editar</a></li>
+                                                    <li><a href="">Eliminar</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="botones-comentario">
+                                            <button type="" class="boton-puntuar">
+                                                <i class="fas fa-thumbs-up"></i>
+                                                12
+                                            </button>
+                                            <button type="" class="boton-responder">
+                                                responder
+                                            </button>
+                                            <span class="tiempo-comentario">
+                                                hece 3 min
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="comentar-publicacion">
+                    <div class="avatar">
+                        <img src="images/foro/mujer2-avatar.png" alt="img">
+                    </div>
+                    <form action="#" method="post" class="comentar-comentario">
+                        <input type="text" name="" value="" placeholder="">
+                        <button type="" class="boton-enviar">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- footer -->
+        <footer>
+            <div class="flexContainer">
+                <div class="logo">
+                    <h2>Mi Primer Bebé</h2>
+                    <img src="images/logo (2).png" alt="" style="width: 80px; height: 80px; ">
+                </div>
+
+                <div class="frase">
+                    <h3>"Compartiendo experiencias, creciendo como madres y padres."</h3>
+                </div>
+
+                <div class="contactos">
+                    <h2><strong>Contacto</strong></h2>
+                    <nav>
+                        <img src="images/instagram.png" alt="" style="width: 25px; height: 25px; ">
+                        <a href="https://www.instagram.com/miprimerbebeinfo/">Instagram</a><br>
+                        <img src="images/gmail.png" alt="" style="width: 25px; height: 25px; ">
+                        <a href="mailto:miprimerbebe.info@gmail.com">Enviar correo</a>
+                </div>
+            </div>
+        </footer>
     </div>
-
-    <!-- ----------Seccion Tarjetas (ORIGINAL)---------------->
-    <!--<section class="tarjeta">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/familiaplaya.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Familia</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/madrehijo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lactancia</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk
-                            of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/hijamadre.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Educación</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk
-                            of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-    <!-- ----------Seccion Tarjetas (MICA)---------------->
-    <section class="tarjetas">
-        <div class="title-cards">
-            <h2>Creciendo Juntos: Síguenos en Instagram</h2>
-        </div>
-        <div class="container-card">
-            <div class="card">
-            <figure>
-                <img src="images/tarjetas/embarazo.webp">
-            </figure>
-            <div class="contenido-card">
-                <h3>Embarazo</h3>
-                <p>La incertidumbre en el proceso de embarazo es muy normal y pueden surgir muchas dudas recurrentes!🧐</p>
-                <a href="https://www.instagram.com/p/C0UefNAgOLE/">Leer Más</a>
-            </div>
-        </div>
-        <div class="card">
-            <figure>
-                <img src="images/tarjetas/bebes.webp">
-            </figure>
-            <div class="contenido-card">
-                <h3>Bebes</h3>
-                <p>Conocer la importancia de los primeros años de vida de nuestro bebé nos permite darle una mejor calidad de vida!✨</p>
-                <a href="https://www.instagram.com/p/C0UdxavglHo/">Leer Más</a>
-            </div>
-        </div>
-        <div class="card">
-            <figure>
-                <img src="images/tarjetas/familia.webp">
-            </figure>
-            <div class="contenido-card">
-                <h3>Familia</h3>
-                <p>La presencia y acompañamiento de la familia en el proceso de embarazo y también luego de dar a luz es fundamental!👨‍👩‍👧‍👦</p>
-                <a href="https://www.instagram.com/p/C0UfEZtgBzl/">Leer Más</a>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Preguntas Frecuentes -->
-    <section class="knowledge" id="preguntasFrecuentes">
-        <div class="contenedor-acordeon">
-            <h2>Preguntas frecuentes</h2>
-
-            <div class="acordeon">
-                <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
-                <label for="btn-acordeon1">
-                    ¿Cuándo puedo sentir los primeros movimientos del bebé durante el embarazo?
-                </label>
-                <div class="contenido-acordeon">
-                    <p>Los primeros movimientos, conocidos como "pataditas", generalmente se experimentan entre las
-                        semanas 18 y 25 del embarazo. Sin embargo, las madres primerizas a veces pueden sentirlos un
-                        poco más tarde. Este momento mágico varía para cada mujer y embarazo, ¡disfruta de cada pequeño
-                        movimiento que conecta a mamá y bebé!</p>
-                </div>
-            </div>
-
-            <div class="acordeon">
-                <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
-                <label for="btn-acordeon2">
-                    ¿Cuánto tiempo se tarda el parto normalmente?
-                </label>
-                <div class="contenido-acordeon">
-                    <p>La duración del parto varía, pero para las primerizas, suele tomar entre 8 y 12 horas. Las
-                        mujeres que han tenido hijos anteriormente pueden experimentar partos más cortos. Es importante
-                        recordar que cada parto es único, y el apoyo y la orientación del equipo de atención médica son
-                        fundamentales durante este emocionante proceso.</p>
-                </div>
-            </div>
-
-            <div class="acordeon">
-                <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
-                <label for="btn-acordeon3">
-                    ¿Cómo sé si mi bebé está recibiendo suficiente leche materna?
-                </label>
-                <div class="contenido-acordeon">
-                    <p>Una señal clave es la cantidad de pañales mojados y deposiciones diarias. Un bebé bien alimentado
-                        generalmente se alimenta al menos 8 veces al día y moja al menos 6 pañales. Además, el bebé
-                        muestra un aumento constante de peso en las visitas al pediatra. La lactancia exitosa a menudo
-                        implica paciencia y apoyo, ¡no dudes en buscar asesoramiento de profesionales de la lactancia!
-                    </p>
-                </div>
-            </div>
-
-            <div class="acordeon">
-                <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
-                <label for="btn-acordeon4">
-                    ¿Cuándo debo empezar a introducir alimentos sólidos?
-                </label>
-                <div class="contenido-acordeon">
-                    <p>La introducción de alimentos sólidos suele comenzar alrededor de los 6 meses, cuando el bebé
-                        muestra signos de estar listo, como sentarse con apoyo y demostrar interés en los alimentos.
-                        Comienza con alimentos simples y de fácil digestión, como purés de frutas y verduras, y consulta
-                        con el pediatra para una guía personalizada.</p>
-                </div>
-            </div>
-
-            <div class="acordeon">
-                <input type="radio" name="acordeon" id="btn-acordeon5" class="btn-acordeon">
-                <label for="btn-acordeon5">
-                    ¿Cómo establezco una rutina de sueño para mi bebé?
-                </label>
-                <div class="contenido-acordeon">
-                    <p>Fomentar una rutina de sueño efectiva implica crear hábitos predecibles antes de dormir. Esto
-                        puede incluir un baño relajante, lectura de cuentos y música tranquila. Coloca al bebé en la
-                        cuna cuando esté somnoliento pero aún despierto para fomentar la autoconciliación. La
-                        consistencia y la paciencia son esenciales mientras estableces una rutina que funcione para tu
-                        bebé y para ti.</p>
-                </div>
-            </div>
-
-            <div class="acordeon">
-                <input type="radio" name="acordeon" id="btn-acordeon6" class="btn-acordeon">
-                <label for="btn-acordeon6">
-                    ¿Cómo puedo estimular el desarrollo cognitivo del bebé durante su primer año?
-                </label>
-                <div class="contenido-acordeon">
-                    <p>El desarrollo cognitivo se fomenta a través del juego interactivo, el contacto visual y hablarle
-                        al bebé. Proporciona juguetes sensoriales y texturas para explorar. La lectura de cuentos y
-                        cantar también son excelentes maneras de estimular el desarrollo del lenguaje. Observa las
-                        señales de interés del bebé y adapta las actividades según su ritmo de desarrollo único.</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- footer -->
-    <footer>
-        <div class="flexContainer">
-            <div class="logo">
-                <h2>Mi Primer Bebé</h2>
-                <img src="images/logo (2).png" alt="" style="width: 80px; height: 80px; ">
-            </div>
-
-            <div class="frase">
-                <h3>"Compartiendo experiencias, creciendo como madres y padres."</h3>
-            </div>
-
-            <div class="contactos">
-                <h2><strong>Contacto</strong></h2>
-                <nav>
-                    <img src="images/instagram.png" alt="" style="width: 25px; height: 25px; ">
-                    <a href="https://www.instagram.com/miprimerbebeinfo/">Instagram</a><br>
-                    <img src="images/gmail.png" alt="" style="width: 25px; height: 25px; ">
-                    <a href="mailto:miprimerbebe.info@gmail.com">Enviar correo</a>
-            </div>
-        </div>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

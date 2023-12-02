@@ -1,10 +1,18 @@
 header {
+    top: 0;
+    width: 100%;
+    position: fixed;
     background-image: linear-gradient(to bottom, #9fbf9a, #cbe3c7); /* Gradiente lineal de color de oscuro a claro */
     color: #fff;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
+}
+
+.main-content{
+    margin-top: 4%;
 }
 
 .registro{
