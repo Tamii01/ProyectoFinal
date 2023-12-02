@@ -1,5 +1,5 @@
 # Mi primer bebe
-Repositorio del Trabajo Práctico Final de Fundación Pescar 
+Repositorio del Protecto Final para Fundación Pescar 
 
 |       Integrantes      |
 |------------------------|

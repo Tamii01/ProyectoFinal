@@ -6,7 +6,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 .registro{
     font-family: 'Varela Round', sans-serif;
     list-style: none;
@@ -21,7 +20,7 @@ header {
     align-items: center;
 }
 
-.logo h1{
+.logo h1, body{
     margin: 0;
     font-family: 'Preahvihear', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -43,7 +42,7 @@ header {
 
 .navigation li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 60px;
     position: relative;
 
 }
@@ -53,6 +52,7 @@ header {
     color: #fff;
     font-family: 'Preahvihear', sans-serif;
     font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
 }
 
 .navigation ul ul {
@@ -84,6 +84,18 @@ header {
     border-radius: 5px;
     margin-left: 30px;
     margin-right: 10px;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.introduccion,
+.quienes-somos,
+.familia,
+.knowledge,
+.footer,
+.tarjeta {
+    font-family: 'Varela Round', sans-serif;
 }
 
 /* ---------------------INTRODUCCION - INDEX.HTML------------------------ */
