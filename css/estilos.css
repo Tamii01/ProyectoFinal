@@ -158,8 +158,8 @@ header {
 .button1 {
     border-radius: 15px;
     padding: 12px 15px;
-    margin-top: 200%;
-    margin-left: 120px;
+    margin-top: 170%;
+    margin-left: 100px;
     color: black;
     background: #cbe3c7;
     font-family: 'Varela Round', sans-serif;
@@ -270,9 +270,9 @@ p {
     position: relative;
     left: 9%;
     margin-top: 100px;
-    font-size: 40px;
+    font-size: 30px;
     color: #000000;
-    width: 17%;
+    width: 50%;
     
 }
 .mision p{ /* TEXTO */
@@ -291,7 +291,7 @@ p {
 .mision img{ /* IMAGEN */
     position: relative;
     top: 100px;
-    left: 15%;
+    left: 14%;
 }
 
 /* >>>>>>>LEMA<<<<<<<< */
@@ -299,15 +299,15 @@ p {
 .lema h2{
     position: relative;
     left: 43%;
-    font-size: 40px;
+    font-size: 30px;
     color: #000000;
-    bottom: 320px;
-    width: 15.7%;
+    bottom: 350px;
+    width: 50%;
     
 }
 .lema p{
     position: relative;
-    bottom: 279px;
+    bottom: 312px;
     left: 37%;
     width: 27.6%;
     text-align: center;
@@ -320,8 +320,8 @@ p {
 
 .lema img{ /* IMAGEN */
     position: relative;
-    bottom: 337px;
-    left: 49%;
+    bottom: 351px;
+    left: 47%;
 }
 
 .lema{
@@ -339,14 +339,14 @@ p {
 .contactarnos h2{
     position: relative;
     left: 70.5%;
-    font-size: 40px;
+    font-size: 30px;
     color: #000000; 
-    bottom: 340px;
-    width: 25%;
+    bottom: 366px;
+    width: 29%;
 }
 .contactarnos p{
     position: relative;
-    bottom: 300px;
+    bottom: 328px;
     left: 68%;
     width: 30%;
     text-align: center;
@@ -363,7 +363,7 @@ p {
 }
 .contactarnos img{ /* IMAGEN */
     position: relative;
-    bottom: 355px;
+    bottom: 368px;
     left: 80%;
 }
 
