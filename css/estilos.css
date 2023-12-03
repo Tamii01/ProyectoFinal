@@ -121,10 +121,9 @@ header {
 /* ---------------------INTRODUCCION - INDEX.HTML------------------------ */
 
 .introduccion {
-    background: #e2d9c5;
+    background: #FEF6E4;
     display: flex;
     justify-content: center;
-    text-shadow: 5px 5px 5px black;
 }
 
 .columna1 {
@@ -237,49 +236,136 @@ p {
     color: white;
 }
 
-#bienvenida {
-    font-family: 'Preahvihear', sans-serif;
-    background: #cbe3c7;
-    font-size: 25px;
-    text-shadow: 2px 1px 2px black;
+.quienesSomos{
+    background-color: #FEFAE0;
+    height: 756px;
 }
 
-.mision {
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
+/* >>>>>>NOSOTRAS<<<<<<<<<< */
+
+.nosotras h2{ /* TITULO */
+    position: relative;
+    left: 45%;
+    font-size: 50px;
+    color: #000000;
+    width: 14%;
+    
 }
 
-#mision {
-    font-family: 'Preahvihear', sans-serif;
-    background: #cbe3c7;
+.info-nosotras p{ /* TEXTO */
+    top: 30px;
+    color: black;
+    background-color: #FEFAE0;
+    width: 65%;
+    text-align: center;
+    left: 19.4%;
     font-size: 20px;
-    text-shadow: 2px 1px 2px black;
+    font-family: 'Varela Round', sans-serif;
 }
 
-.lema {
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
-}
 
-#lema {
-    font-family: 'Preahvihear', sans-serif;
-    background: #cbe3c7;
+/* >>>>>>>>>MISION<<<<<<<<<<<< */
+
+.mision h2{ /* TITULO */
+    position: relative;
+    left: 9%;
+    margin-top: 100px;
+    font-size: 40px;
+    color: #000000;
+    width: 17%;
+    
+}
+.mision p{ /* TEXTO */
+    position: relative;
+    top: 35px;
+    left: 3%;
+    width: 32%;
+    text-align: center;
+    color: black;
+    background-color: #FEFAE0;
     font-size: 20px;
-    text-shadow: 2px 1px 2px black;
+    margin: 0;
+    padding: 0;
+}
+ 
+.mision img{ /* IMAGEN */
+    position: relative;
+    top: 100px;
+    left: 15%;
 }
 
-.contacto {
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
-}
+/* >>>>>>>LEMA<<<<<<<< */
 
-#contacto {
-    font-family: 'Preahvihear', sans-serif;
-    background: #cbe3c7;
+.lema h2{
+    position: relative;
+    left: 43%;
+    font-size: 40px;
+    color: #000000;
+    bottom: 320px;
+    width: 15.7%;
+    
+}
+.lema p{
+    position: relative;
+    bottom: 279px;
+    left: 37%;
+    width: 27.6%;
+    text-align: center;
+    color: black;
+    background-color: #FEFAE0;
     font-size: 20px;
-    text-shadow: 2px 1px 2px black;
+    padding: 0;
+
 }
 
+.lema img{ /* IMAGEN */
+    position: relative;
+    bottom: 337px;
+    left: 49%;
+}
+
+.lema{
+    background-color: #2e2e2e;
+    height: 0;
+}
+
+/* >>>>>>>>CONTACTARNOS<<<<<<<<<< */
+
+.contactarnos{
+    background-color: green;
+    height: 0;
+}
+
+.contactarnos h2{
+    position: relative;
+    left: 70.5%;
+    font-size: 40px;
+    color: #000000; 
+    bottom: 340px;
+    width: 25%;
+}
+.contactarnos p{
+    position: relative;
+    bottom: 300px;
+    left: 68%;
+    width: 30%;
+    text-align: center;
+    color: black;
+    background-color: #FEFAE0;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.contactarnos a{
+    color: black;
+    cursor: pointer;
+}
+.contactarnos img{ /* IMAGEN */
+    position: relative;
+    bottom: 355px;
+    left: 80%;
+}
 
 /*---------------FAMILIA--------------*/
 .knowledge {
@@ -679,5 +765,7 @@ h3 {
 .contenedor-main{
     margin-top: 3.4%;
 }
+
+
 
 /* ------------------------- EMBARAZO ------------------------ */
