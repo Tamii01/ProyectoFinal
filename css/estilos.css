@@ -266,7 +266,8 @@ p {
 /* >>>>>>>>>MISION<<<<<<<<<<<< */
 
 .mision h2{ /* TITULO */
-    position: relative;
+    position: absolute;
+    bottom: 140px;
     left: 9%;
     margin-top: 100px;
     font-size: 40px;
@@ -276,7 +277,7 @@ p {
 }
 .mision p{ /* TEXTO */
     position: relative;
-    top: 35px;
+    top: 298px;
     left: 3%;
     width: 32%;
     text-align: center;
@@ -288,25 +289,25 @@ p {
 }
  
 .mision img{ /* IMAGEN */
-    position: relative;
-    top: 100px;
+    position: absolute;
+    bottom: 200px;
     left: 15%;
 }
 
 /* >>>>>>>LEMA<<<<<<<< */
 
-.lema h2{
-    position: relative;
-    left: 43%;
+.lema h2{/* TITULO */
+    position: absolute;
+    bottom: 140px;
+    left: 42%;
     font-size: 40px;
     color: #000000;
-    bottom: 320px;
     width: 20%;
     
 }
-.lema p{
+.lema p{ /* TEXTO */
     position: relative;
-    bottom: 279px;
+    top: 154px;
     left: 37%;
     width: 27.6%;
     text-align: center;
@@ -318,34 +319,24 @@ p {
 }
 
 .lema img{ /* IMAGEN */
-    position: relative;
-    bottom: 337px;
+    position: absolute;
+    bottom: 205px;
     left: 49%;
-}
-
-.lema{
-    background-color: #2e2e2e;
-    height: 0;
 }
 
 /* >>>>>>>>CONTACTARNOS<<<<<<<<<< */
 
-.contactarnos{
-    background-color: green;
-    height: 0;
-}
-
-.contactarnos h2{
-    position: relative;
-    left: 70.5%;
+.contactarnos h2{ /* TITULO */
+    position: absolute;
+    bottom: 140px;
+    left: 69%;
     font-size: 40px;
     color: #000000; 
-    bottom: 340px;
     width: 29%;
-}
-.contactarnos p{
+} 
+.contactarnos p{ /* TEXTO */
     position: relative;
-    bottom: 300px;
+    top: 34px;
     left: 68%;
     width: 30%;
     text-align: center;
@@ -356,16 +347,16 @@ p {
     margin: 0;
 }
 
-.contactarnos a{
-    color: black;
-    cursor: pointer;
-}
 .contactarnos img{ /* IMAGEN */
-    position: relative;
-    bottom: 355px;
-    left: 80%;
+    position: absolute;
+    bottom: 205px;
+    left: 79%;
 }
 
+.contactarnos a{
+    color: rgb(101, 101, 248);
+    cursor: pointer;
+}
 /*---------------FAMILIA--------------*/
 .knowledge {
     /*Por si agregamos algun fondo, configurar para que se vea completo en la seccion*/
